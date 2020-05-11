@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cd-library/', include('cd_library.urls') )
+    path('cd-library/', include('cd_library.urls') ),
+    path('pastebin/', include('pastebin.urls')),
 ]
