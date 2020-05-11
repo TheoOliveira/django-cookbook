@@ -28,7 +28,11 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
+<<<<<<< HEAD
 $VIRTUAL_ENV = r"/home/theo/repos/Estudos/django-cookbook/cd-library/venv"
+=======
+$VIRTUAL_ENV = r"/home/ctresc/Estudos/django-cookbook/cd-library/venv"
+>>>>>>> 7b118c130637c7448af5caeb7412c8d69ccfcfa7
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

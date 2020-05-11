@@ -57,7 +57,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV '/home/theo/repos/Estudos/django-cookbook/cd-library/venv'
+=======
+set -gx VIRTUAL_ENV '/home/ctresc/Estudos/django-cookbook/cd-library/venv'
+>>>>>>> 7b118c130637c7448af5caeb7412c8d69ccfcfa7
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3
